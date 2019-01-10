@@ -9,8 +9,17 @@ body header {
   background-color: rgba(1, 0, 0, 0.5);
   width: 100%; }
   body header .mynav {
-    background-color: aqua;
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
     align-items: center; }
+
+body .title {
+  margin: 465px 0 0 888px;
+  font-size: 72px; }
+
+body .tixari1 {
+  width: 138px;
+  height: 4px;
+  background-color: #232323;
+  margin: 30px 0 40px 1000px; }

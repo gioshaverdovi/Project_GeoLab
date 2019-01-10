@@ -9,5 +9,12 @@ body {
     header{
         background-color:rgba(1,0,0,0.5);
         width: 100%;
+        .mynav {
+            background-color: aqua;
+            max-width: 1170px;
+            width: 100%;
+            margin: 0 auto;
+            align-items: center;
+        }
     }
 }

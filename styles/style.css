@@ -1,8 +1,44 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
 body .bg1 {
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
   height: 1000px; }
 
 body header {
@@ -14,12 +50,40 @@ body header {
     margin: 0 auto;
     align-items: center; }
 
-body .title {
-  margin: 465px 0 0 888px;
-  font-size: 72px; }
-
-body .tixari1 {
-  width: 138px;
-  height: 4px;
-  background-color: #232323;
-  margin: 30px 0 40px 1000px; }
+body .treebox {
+  max-width: 558px;
+  width: 100%;
+  position: absolute;
+  left: 52.33%;
+  top: 35.1%; }
+  body .treebox .title {
+    margin-left: 19.53%;
+    font-size: 72px;
+    color: #212121;
+    padding-bottom: 30px; }
+  body .treebox .tixari1 {
+    width: 138px;
+    height: 4px;
+    background-color: #232323;
+    margin-left: 74.73%;
+    margin-bottom: 45px; }
+  body .treebox .txtdiv {
+    width: 558px;
+    margin-bottom: 60px; }
+    body .treebox .txtdiv .treetext {
+      color: #212121;
+      font-size: 18px;
+      text-align: right;
+      margin-left: 3.4%; }
+  body .treebox .morebox {
+    width: 273px;
+    margin-left: 53.22%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #212121;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0; }
+    body .treebox .morebox p {
+      font-size: 18px;
+      color: #212121; }

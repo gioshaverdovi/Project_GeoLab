@@ -35,7 +35,6 @@ table {
   box-sizing: border-box; }
 
 body .bg1 {
-  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,33 +50,29 @@ body header {
     align-items: center; }
 
 body .treebox {
-  max-width: 558px;
+  max-width: 1170px;
   width: 100%;
-  position: absolute;
-  left: 52.33%;
-  top: 35.1%; }
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end; }
   body .treebox .title {
-    margin-left: 19.53%;
     font-size: 72px;
     color: #212121;
     padding-bottom: 30px; }
   body .treebox .tixari1 {
     width: 138px;
     height: 4px;
-    background-color: #232323;
-    margin-left: 74.73%;
-    margin-bottom: 45px; }
+    background-color: #232323; }
   body .treebox .txtdiv {
     width: 558px;
     margin-bottom: 60px; }
     body .treebox .txtdiv .treetext {
       color: #212121;
       font-size: 18px;
-      text-align: right;
-      margin-left: 3.4%; }
+      text-align: right; }
   body .treebox .morebox {
     width: 273px;
-    margin-left: 53.22%;
     border-style: solid;
     border-width: 2px;
     border-color: #212121;

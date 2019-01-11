@@ -1,7 +1,7 @@
 @import 'reset';
 body {
     .bg1 {
-        position: relative;
+        //position: relative;
         background-size: cover;
         background-position: center;
         //background-attachment: fixed;
@@ -20,13 +20,17 @@ body {
         }
     }
     .treebox {
-        max-width: 558px;
+        max-width: 1170px;
         width: 100%;
-        position: absolute;
-        left: 52.33%;
-        top: 35.1%;
+        //position: absolute;
+        //left: 52.33%;
+        //top: 35.1%;
+        background-color: aqua;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
         .title{
-            margin-left: 19.53%;
+            //margin-left: 19.53%;
             font-size: 72px;
             color: #212121;
             padding-bottom: 30px;
@@ -35,8 +39,8 @@ body {
             width: 138px;
             height: 4px;
             background-color: #232323;
-            margin-left: 74.73%;
-            margin-bottom: 45px;
+            //margin-left: 74.73%;
+            //margin-bottom: 45px;
         }
         .txtdiv{
             width: 558px;
@@ -45,12 +49,12 @@ body {
                 color: #212121;
                 font-size: 18px;
                 text-align: right;
-                margin-left: 3.4%;
+                //margin-left: 3.4%;
             }    
         }
         .morebox{
             width: 273px;
-            margin-left: 53.22%;
+       //     margin-left: 53.22%;
             border-style: solid;
             border-width: 2px;
             border-color: #212121;

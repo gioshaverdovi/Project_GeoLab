@@ -50,11 +50,12 @@ body header {
     align-items: center; }
 
 body .mycont {
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 0; }
   body .mycont .title {
     font-size: 72px;
-    color: #212121;
-    text-align: right; }
+    color: #212121; }
   body .mycont .tixari1 {
     width: 138px;
     height: 4px;

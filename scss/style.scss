@@ -20,13 +20,12 @@ body {
         }
     }
     .mycont {
-        // flex-direction: column;
-        // justify-content: end;
+        flex-direction: column;
+        justify-content: flex-end;
         padding: 0;
         .title{
             font-size: 72px;
             color: #212121;
-            text-align: right;
         }
         .tixari1{
             width: 138px;

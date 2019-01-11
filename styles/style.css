@@ -49,29 +49,23 @@ body header {
     margin: 0 auto;
     align-items: center; }
 
-body .treebox {
-  max-width: 1170px;
-  width: 100%;
-  background-color: aqua;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end; }
-  body .treebox .title {
+body .mycont {
+  padding: 0; }
+  body .mycont .title {
     font-size: 72px;
     color: #212121;
-    padding-bottom: 30px; }
-  body .treebox .tixari1 {
+    text-align: right; }
+  body .mycont .tixari1 {
     width: 138px;
     height: 4px;
     background-color: #232323; }
-  body .treebox .txtdiv {
+  body .mycont .txtdiv {
     width: 558px;
     margin-bottom: 60px; }
-    body .treebox .txtdiv .treetext {
+    body .mycont .txtdiv .treetext {
       color: #212121;
-      font-size: 18px;
-      text-align: right; }
-  body .treebox .morebox {
+      font-size: 18px; }
+  body .mycont .morebox {
     width: 273px;
     border-style: solid;
     border-width: 2px;
@@ -79,6 +73,6 @@ body .treebox {
     display: flex;
     justify-content: center;
     padding: 15px 0; }
-    body .treebox .morebox p {
+    body .mycont .morebox p {
       font-size: 18px;
       color: #212121; }

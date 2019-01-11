@@ -51,18 +51,21 @@ body header {
 
 body .mycont {
   flex-direction: column;
-  padding: 0 0; }
+  padding: 0;
+  margin-top: 351px; }
   body .mycont .title {
     font-size: 72px;
-    color: #212121; }
+    color: #212121;
+    margin-bottom: 30px; }
   body .mycont .tixari1 {
     width: 138px;
     height: 4px;
-    background-color: #232323; }
+    background-color: #232323;
+    margin-bottom: 45px; }
   body .mycont .txtdiv {
-    width: 558px;
-    margin-bottom: 60px;
-    background: blue; }
+    max-width: 570px;
+    width: 100%;
+    margin-bottom: 46px; }
     body .mycont .txtdiv .treetext {
       color: #212121;
       font-size: 18px;
@@ -78,3 +81,22 @@ body .mycont {
     body .mycont .morebox p {
       font-size: 18px;
       color: #212121; }
+
+body .section2 div img {
+  width: 55px;
+  margin-top: 100px;
+  margin-bottom: 22px; }
+
+body .section2 div h1 {
+  font-size: 27px;
+  color: #212121;
+  margin-bottom: 71px; }
+
+body .section2 div div {
+  max-width: 970px;
+  width: 100%;
+  margin-bottom: 112px; }
+  body .section2 div div .sec2text {
+    font-size: 16px;
+    color: #212121;
+    text-align: center; }

@@ -51,8 +51,7 @@ body header {
 
 body .mycont {
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 0; }
+  padding: 0 0; }
   body .mycont .title {
     font-size: 72px;
     color: #212121; }

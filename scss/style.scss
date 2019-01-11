@@ -21,8 +21,7 @@ body {
     }
     .mycont {
         flex-direction: column;
-        justify-content: flex-end;
-        padding: 0;
+        padding: 0 0;
         .title{
             font-size: 72px;
             color: #212121;
@@ -31,7 +30,6 @@ body {
             width: 138px;
             height: 4px;
             background-color: #232323;
-           // text-align: right;
         }
         .txtdiv{
             width: 558px;

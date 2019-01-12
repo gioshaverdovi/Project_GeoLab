@@ -81,4 +81,98 @@ body {
             }
         }
     }
+    .section3{
+        background-color: #EFEFEF;
+        padding-top: 78px;
+        padding-bottom: 110px;
+        .container{
+            .row{
+                & div {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    & img {
+                        padding-bottom: 30px;
+                    }
+                    & h3 {
+                        font-size: 18px;
+                        color: #212121;
+                        padding-bottom: 35px;
+                    }
+                    & div {
+                        max-width: 270px;
+                        width: 100%;
+                        & p {
+                            font-size: 16px;
+                            color: #212121;
+                        }                    }
+                }
+            }
+        }
+    }
+    .section4{
+        padding-top: 107px;
+        .container{
+            padding: 0;
+            .div1{
+                display: flex;
+                flex-direction: column;
+                & h1 {
+                    font-size: 27px;
+                    color: #212121;
+                    padding-bottom: 41px;
+                }
+                & div {
+                    max-width: 768px;
+                    width: 100%;
+                    & p {
+                        text-align: center;
+                        font-size: 16px;
+                        color: #212121;
+                    }
+                }
+            }
+        }
+        .pdtop{
+            padding: 0;
+            padding-top: 110px;
+            .row{
+                .only {
+                    margin: 0 32px;
+                }
+                & div {
+                    background-color: #222222;
+                    padding: 0;
+                    padding-top: 68px;
+                    .boxtitle{
+                        font-size: 14px;
+                        color: #EEEEEE;
+                        margin-left: 38px;                        
+                    }
+                    .blboxtxtdiv {
+                        max-width: 270px;
+                        width: 100%;
+                        padding-top: 34px;
+                        padding-bottom: 65px;
+                        & h1 {
+                            font-size: 24px;
+                            color: #EEEEEE;
+                            margin-left: 38px;
+                        }
+                    }
+                    .name{
+                        font-size: 14px;
+                        color: #EEEEEE;
+                        margin-left: 38px;
+                        padding-bottom: 10px;
+                    }
+                    .date{
+                        font-size: 14px;
+                        color: #EEEEEE;
+                        margin-left: 38px;
+                        padding-bottom: 66px;
+                    }
+                }
+            }
+        }
+    }
 }

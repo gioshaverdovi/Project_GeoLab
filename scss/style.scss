@@ -92,19 +92,23 @@ body {
                     padding-right: 0px;
                     & img {
                         padding-bottom: 30px;
+                        margin-left: 55px;
                     }
                     & h3 {
                         font-size: 18px;
                         color: #212121;
                         padding-bottom: 35px;
+                        margin-left: 55px;
                     }
                     & div {
                         max-width: 270px;
                         width: 100%;
+                        margin-left: 55px;
                         & p {
                             font-size: 16px;
                             color: #212121;
-                        }                    }
+                        }                    
+                    }
                 }
             }
         }

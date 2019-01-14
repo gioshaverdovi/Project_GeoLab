@@ -118,7 +118,6 @@ body .section3 {
       margin-left: 55px; }
     body .section3 .container .row div div {
       max-width: 270px;
-      width: 100%;
       margin-left: 55px; }
       body .section3 .container .row div div p {
         font-size: 16px;
@@ -136,8 +135,7 @@ body .section4 {
         color: #212121;
         padding-bottom: 41px; }
       body .section4 .container .div1 div {
-        max-width: 768px;
-        width: 100%; }
+        max-width: 768px; }
         body .section4 .container .div1 div p {
           text-align: center;
           font-size: 16px;
@@ -150,14 +148,14 @@ body .section4 {
     body .section4 .pdtop .row div {
       background-color: #222222;
       padding: 0;
-      padding-top: 68px; }
+      padding-top: 68px;
+      max-width: 368px; }
       body .section4 .pdtop .row div .boxtitle {
         font-size: 14px;
         color: #EEEEEE;
         margin-left: 38px; }
       body .section4 .pdtop .row div .blboxtxtdiv {
         max-width: 270px;
-        width: 100%;
         padding-top: 34px;
         padding-bottom: 65px; }
         body .section4 .pdtop .row div .blboxtxtdiv h1 {

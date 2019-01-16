@@ -198,3 +198,16 @@ body .section6 {
     max-width: 380px;
     width: 100%;
     margin-bottom: 82px; }
+
+body .section7 {
+  padding-top: 120px;
+  padding-bottom: 65px;
+  background-color: #212121; }
+  body .section7 .container .sec7textdiv {
+    max-width: 870px;
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #EEEEEE; }
+  body .section7 .container p {
+    font-size: 20px;
+    color: #EEEEEE; }

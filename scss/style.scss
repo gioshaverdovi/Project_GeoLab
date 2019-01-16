@@ -226,4 +226,51 @@ body {
             }
         }
     }
+    .section8{
+        padding-top: 152px;
+        padding-bottom: 125px;
+        .container{
+            & h1 {
+                font-size: 27px;
+                font-weight: bold;
+                color: #212121;
+                margin-bottom: 55px;
+            }
+            .sec8textdiv{
+                max-width: 768px;
+                font-size: 16px;
+                color: #212121;
+                margin-bottom: 100px;
+            }
+        }
+        .container{
+            .row{
+                & div {
+                    & img{
+                        margin-bottom: 55px;
+                    }
+                    .sec8name{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #212121;
+                        margin-bottom: 20px;
+                    }
+                    .sec8profession{
+                        font-size: 15px;
+                        color: #212121;
+                    }
+                }
+            }
+        }
+    }
+    .bg9{
+        max-width: 100%;
+        height: 697px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;            
+    }
+    .section9{
+        
+    }
 }

@@ -124,7 +124,8 @@ body .section3 {
         color: #212121; }
 
 body .section4 {
-  padding-top: 107px; }
+  padding-top: 107px;
+  padding-bottom: 141px; }
   body .section4 .container {
     padding-top: 110px;
     padding-bottom: 140px; }

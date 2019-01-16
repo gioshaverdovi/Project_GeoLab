@@ -184,4 +184,30 @@ body {
             }
         }
     }
+    .section6{
+        padding-top: 110px;
+        padding-bottom: 110px;
+        .container{
+            & h1 {
+                font-size: 27px;
+                margin-bottom: 40px;
+            }
+            .sec6textdiv{
+                max-width: 768px;
+                font-size: 16px;
+                margin-bottom: 37px;
+            }
+            .sec6tixari{
+                width: 75px;
+                height: 7px;
+                background-color: #E64A19;
+                margin-bottom: 50px;
+            }
+            .sec6list{
+                max-width: 380px;
+                width: 100%;
+                margin-bottom: 82px;
+            }
+        }
+    }
 }

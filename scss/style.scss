@@ -139,6 +139,8 @@ body {
                     }
                 }
             }
+        }
+        .container{
             .row{
                 & div {
                     background-color: #222222;
@@ -276,8 +278,5 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;            
-    }
-    .section9{
-        
     }
 }

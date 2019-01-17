@@ -290,6 +290,48 @@ body {
                     color: #EEEEEE;
                 }
             }
+            .bgcon2 {
+                max-width: 830px;
+                background-color: #EEEEEE;
+                margin-top: 63px;
+                padding-bottom: 69px;
+                .row {
+                    padding-top: 61px;
+                    padding-bottom: 52px;
+                    & div {
+                        & p {
+                            font-size: 27px;
+                            color: red;
+                        }
+                        .xz {
+                            width: 75px;
+                            height: 4px;
+                            background-color: #4D4C4B;
+                            margin-bottom: 18px;
+                            margin-top: 18px;
+                        }
+                    }
+                }
+                .row {
+                    & div {
+                        & p {
+                            font-size: 27px;
+                            color: red;
+                        }
+                        .xz {
+                            width: 75px;
+                            height: 4px;
+                            background-color: #4D4C4B;
+                            margin-bottom: 18px;
+                        }
+                    }
+                }
+            }
+            .redtx {
+                width: 75px;
+                height: 7px;
+                background-color: #E64A19;
+            }
         }
     }
 }

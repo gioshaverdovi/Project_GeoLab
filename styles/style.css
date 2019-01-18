@@ -330,16 +330,7 @@ body .section11 {
 
 @media (max-width: 320px) {
   body .bg1 .container .title {
-    font-size: 30px; }
-  body .section6 .container .sec6list {
-    flex-direction: column;
-    font-size: 16px;
-    max-width: 380px;
-    width: 100%;
-    margin-bottom: 82px; }
-    body .section6 .container .sec6list p {
-      align-self: center;
-      margin-bottom: 10px; } }
+    font-size: 30px; } }
 
 @media (max-width: 576px) {
   body .bg1 .container .title {

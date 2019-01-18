@@ -3,7 +3,7 @@ body {
     .bg1 {
         background-size: cover;
         background-position: center;
-        //background-attachment: fixed;
+        background-attachment: fixed;
         background-repeat: no-repeat;
         height: 1000px;
     }
@@ -362,6 +362,36 @@ body {
                         max-width: 430px;
                         font-size: 16px;
                         color: #333333;
+                    }
+                }
+            }
+        }
+    }
+    .section11{
+        background-color: #EFEFEF;
+        padding-top: 75px;
+        padding-bottom: 73px;
+        .container{
+            .row{
+                & div{
+                    .sec11txr{
+                        width: 6px;
+                        height: 73px;
+                        background-color: #212121;
+                    }
+                    & div {
+                        .sec11title {
+                            margin-left: 19px;
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #222222;
+                            margin-bottom: 15px;
+                        }
+                        .sec11date {
+                            margin-left: 19px;
+                            font-size: 14px;
+                            color: #555555;
+                        }
                     }
                 }
             }

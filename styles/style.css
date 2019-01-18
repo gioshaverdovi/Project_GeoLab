@@ -37,6 +37,7 @@ table {
 body .bg1 {
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 1000px; }
 
@@ -307,3 +308,22 @@ body .section10 {
     color: #333333; }
     body .section10 .container .row div .sec10textdiv p {
       margin-top: 0px; }
+
+body .section11 {
+  background-color: #EFEFEF;
+  padding-top: 75px;
+  padding-bottom: 73px; }
+  body .section11 .container .row div .sec11txr {
+    width: 6px;
+    height: 73px;
+    background-color: #212121; }
+  body .section11 .container .row div div .sec11title {
+    margin-left: 19px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 15px; }
+  body .section11 .container .row div div .sec11date {
+    margin-left: 19px;
+    font-size: 14px;
+    color: #555555; }

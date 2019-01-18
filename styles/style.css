@@ -285,3 +285,25 @@ body .section9 .opabg {
     width: 75px;
     height: 7px;
     background-color: #E64A19; }
+
+body .section10 {
+  padding-top: 118px;
+  padding-bottom: 96px; }
+  body .section10 .container .mrgtp {
+    margin-top: 44px; }
+  body .section10 .container .row div p {
+    margin-top: 83px;
+    font-size: 14px;
+    color: #555555; }
+  body .section10 .container .row div h1 {
+    margin-top: 17px;
+    margin-bottom: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222; }
+  body .section10 .container .row div .sec10textdiv {
+    max-width: 430px;
+    font-size: 16px;
+    color: #333333; }
+    body .section10 .container .row div .sec10textdiv p {
+      margin-top: 0px; }

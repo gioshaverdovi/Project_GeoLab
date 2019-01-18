@@ -327,3 +327,16 @@ body .section11 {
     margin-left: 19px;
     font-size: 14px;
     color: #555555; }
+
+@media (max-width: 576px) {
+  body .bg1 .container .title {
+    font-size: 62px; }
+  body .section6 .container .sec6list {
+    flex-direction: column;
+    font-size: 16px;
+    max-width: 380px;
+    width: 100%;
+    margin-bottom: 82px; }
+    body .section6 .container .sec6list p {
+      align-self: center;
+      margin-bottom: 10px; } }

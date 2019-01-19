@@ -132,6 +132,7 @@ body .section4 {
   padding-top: 107px;
   padding-bottom: 140px; }
   body .section4 .container .div1 {
+    margin-bottom: 105px;
     display: flex;
     flex-direction: column; }
     body .section4 .container .div1 h1 {

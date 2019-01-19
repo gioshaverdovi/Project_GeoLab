@@ -397,5 +397,52 @@ body {
             }
         }
     }
+    .footer{
+        padding-top: 88px;
+        background-color: #212121;
+        .container{
+            .Ldiv{
+                //max-width: 435px;
+                & h1 {
+                    margin-bottom: 35px;
+                    font-size: 22px;
+                    color: #EEEEEE;
+                }
+                & div {
+                    max-width: 430px;
+                    margin-bottom: 35px;
+                    .foottext{
+                        font-size: 14px;
+                        color: #999999;
+                    }
+                }
+                & form {
+                    .form-group{
+                        margin-bottom: 0px;
+                        .form-control{
+                            border-top: none;
+                            border-right: none;
+                            border-left: none;
+                            border-radius: 0;
+                            border-bottom-color: #808080;
+                            background-color: #212121;
+                        }
+                        .EMSUBDIV{
+                            margin-bottom: 20px;
+                            max-width: 198px;
+                        }
+                        .MSDIV{
+                            margin-bottom: 88px;
+                            max-width: 428px;
+                        }
+                    }
+                    .btn-primary{
+                        border: none;
+                        background-color: #212121;
+                    }
+                }
+            }
+        }
+    }
 }
 @import 'responsive';

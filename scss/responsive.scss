@@ -35,3 +35,14 @@
         }
     }
 }
+@media (max-width: 768px){
+    body{
+        .footer{
+            .container{
+                .social {
+                    display: none;
+                }
+            }
+        }
+    }
+}

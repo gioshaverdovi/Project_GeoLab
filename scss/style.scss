@@ -22,6 +22,7 @@ body {
         padding: 0;
         margin-top: 351px;
         .title{
+            font-family: 'Source Sans Pro', sans-serif;
             font-size: 72px;
             color: #212121;
             margin-bottom: 30px;
@@ -38,12 +39,15 @@ body {
             width: 100%;
             margin-bottom: 46px;
             .treetext{
+                font-family: 'Source Sans Pro', sans-serif;
+                line-height: 1.6;
                 color: #212121;
                 font-size: 18px;
                 text-align: right;
             }    
         }
         .morebox{
+            font-family: 'Open Sans', sans-serif;
             width: 273px;
             border-style: solid;
             border-width: 2px;
@@ -67,6 +71,7 @@ body {
                 margin-bottom: 22px;
             }
             & h1 {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 27px;
                 color: #212121;
                 margin-bottom: 71px;
@@ -77,6 +82,8 @@ body {
                 width: 100%;
                 margin-bottom: 112px;
                 .sec2text{
+                    font-family: 'Source Sans Pro', sans-serif;
+                    line-height: 1.6;
                     font-size: 16px;
                     color: #212121;
                     text-align: center;
@@ -98,6 +105,7 @@ body {
                         margin-left: 55px;
                     }
                     & h3 {
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 18px;
                         color: #212121;
                         padding-bottom: 35px;
@@ -108,6 +116,8 @@ body {
                         max-width: 270px;
                         margin-left: 55px;
                         & p {
+                            font-family: 'Source Sans Pro', sans-serif;
+                            line-height: 1.6;
                             font-size: 16px;
                             color: #212121;
                         }                    
@@ -125,6 +135,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 & h1 {
+                    font-family: 'Source Sans Pro', sans-serif;
                     font-size: 27px;
                     color: #212121;
                     padding-bottom: 41px;
@@ -133,6 +144,8 @@ body {
                 & div {
                     max-width: 768px;
                     & p {
+                        font-family: 'Source Sans Pro', sans-serif;
+                        line-height: 1.6;
                         text-align: center;
                         font-size: 16px;
                         color: #212121;
@@ -148,6 +161,7 @@ body {
                     padding-top: 68px;
                     max-width: 368px;
                     .boxtitle{
+                        font-family: 'Source Sans Pro', sans-serif;
                         font-size: 14px;
                         color: #EEEEEE;
                         margin-left: 38px;                        
@@ -157,18 +171,22 @@ body {
                         padding-top: 34px;
                         padding-bottom: 65px;
                         & h1 {
+                            font-family: 'Source Sans Pro', sans-serif;
+                            line-height: 1.6;
                             font-size: 24px;
                             color: #EEEEEE;
                             margin-left: 38px;
                         }
                     }
                     .name{
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 14px;
                         color: #EEEEEE;
                         margin-left: 38px;
                         padding-bottom: 10px;
                     }
                     .date{
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 14px;
                         color: #EEEEEE;
                         margin-left: 38px;
@@ -185,6 +203,7 @@ body {
         .container{
             margin-bottom: 68px;
             & h1 {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 27px;
                 font-weight: bold;
                 color: #212121;
@@ -196,11 +215,14 @@ body {
         padding-bottom: 110px;
         .container{
             & h1 {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 27px;
                 margin-bottom: 40px;
                 font-weight: bold;
             }
             .sec6textdiv{
+                font-family: 'Source Sans Pro', sans-serif;
+                line-height: 1.6;
                 max-width: 768px;
                 font-size: 16px;
                 margin-bottom: 37px;
@@ -212,6 +234,7 @@ body {
                 margin-bottom: 50px;
             }
             .sec6list{
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 16px;
                 max-width: 380px;
                 width: 100%;
@@ -225,12 +248,15 @@ body {
         background-color: #212121;
         .container{
             .sec7textdiv{
+                font-family: 'Source Sans Pro', sans-serif;
+                line-height: 1.6;
                 max-width: 870px;
                 font-size: 20px;
                 margin-bottom: 35px;
                 color: #EEEEEE;
             }
             & p{
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 20px;
                 color: #EEEEEE;
             }
@@ -241,12 +267,15 @@ body {
         padding-bottom: 125px;
         .container{
             & h1 {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 27px;
                 font-weight: bold;
                 color: #212121;
                 margin-bottom: 55px;
             }
             .sec8textdiv{
+                font-family: 'Source Sans Pro', sans-serif;
+                line-height: 1.6;
                 max-width: 768px;
                 font-size: 16px;
                 color: #212121;
@@ -261,11 +290,13 @@ body {
                     }
                     .sec8name{
                         font-size: 16px;
+                        font-family: 'Source Sans Pro', sans-serif;
                         font-weight: bold;
                         color: #212121;
                         margin-bottom: 20px;
                     }
                     .sec8profession{
+                        font-family: 'Source Sans Pro', sans-serif;
                         font-size: 15px;
                         color: #212121;
                     }
@@ -285,6 +316,7 @@ body {
             padding-top: 110px;
             .container {
                 & h1 {
+                    font-family: 'Source Sans Pro', sans-serif;
                     font-size: 27px;
                     font-weight: bold;
                     color: #EEEEEE;
@@ -300,6 +332,7 @@ body {
                     padding-bottom: 52px;
                     & div {
                         & p {
+                            font-family: 'Source Sans Pro', sans-serif;
                             font-size: 27px;
                             color: red;
                         }
@@ -315,6 +348,7 @@ body {
                 .row {
                     & div {
                         & p {
+                            font-family: 'Source Sans Pro', sans-serif;
                             font-size: 27px;
                             color: red;
                         }
@@ -343,25 +377,27 @@ body {
             }
             .row{
                 & div{
-                    & p{
+                    & p{font-family: 'Source Sans Pro', sans-serif;
                         margin-top: 83px;
                         font-size: 14px;
                         color: #555555;
                     }
                     & h1{
+                        font-family: 'Open Sans', sans-serif;
                         margin-top: 17px;
                         margin-bottom: 55px;
                         font-size: 24px;
-                        font-weight: bold;
                         color: #222222;
                     }
                     .sec10textdiv{
                         & p {
+                            font-family: 'Source Sans Pro', sans-serif;
+                            line-height: 1.6;
                             margin-top: 0px;
+                            color: #333333;
                         }
                         max-width: 430px;
                         font-size: 16px;
-                        color: #333333;
                     }
                 }
             }
@@ -381,13 +417,14 @@ body {
                     }
                     & div {
                         .sec11title {
+                            font-family: 'Open Sans', sans-serif;
                             margin-left: 19px;
                             font-size: 18px;
-                            font-weight: bold;
                             color: #222222;
                             margin-bottom: 15px;
                         }
                         .sec11date {
+                            font-family: 'Source Sans Pro', sans-serif;
                             margin-left: 19px;
                             font-size: 14px;
                             color: #555555;
@@ -405,6 +442,7 @@ body {
             .row{
                 .Ldiv{
                     & h1 {
+                        font-family: 'Source Sans Pro', sans-serif;
                         margin-bottom: 35px;
                         font-size: 22px;
                         color: #EEEEEE;
@@ -414,6 +452,8 @@ body {
                         max-width: 430px;
                         margin-bottom: 35px;
                         .foottext{
+                            font-family: 'Source Sans Pro', sans-serif;
+                            line-height: 1.6;
                             font-size: 14px;
                             color: #999999;
                         }
@@ -430,15 +470,18 @@ body {
                                 background-color: #212121;
                             }
                             .EMSUBDIV{
+                                font-family: 'Source Sans Pro', sans-serif;
                                 margin-bottom: 20px;
                                 max-width: 198px;
                             }
                             .MSDIV{
+                                font-family: 'Source Sans Pro', sans-serif;
                                 margin-bottom: 88px;
                                 max-width: 428px;
                             }
                         }
                         .btn-primary{
+                            font-family: 'Source Sans Pro', sans-serif;
                             border: none;
                             background-color: #212121;
                         }
@@ -446,12 +489,14 @@ body {
                 }
                 .social{
                     & h2 {
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 15px;
                         color: #DDDDDD;
                         margin-bottom: 35px;
                     }
                     .list-group{
                         .list-group-item{
+                            font-family: 'Source Sans Pro', sans-serif;
                             padding: 0px;
                             margin-bottom: opx;
                             background-color: #212121;
@@ -474,6 +519,7 @@ body {
             max-width: 1170px;
             width: 100%;
             & p{
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 14px;
                 color: #AAAAAA;
             }

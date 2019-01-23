@@ -37,6 +37,9 @@ table {
 a {
   text-decoration: none; }
 
+html {
+  scroll-behavior: smooth; }
+
 body .bg1 {
   background-size: cover;
   background-position: center;

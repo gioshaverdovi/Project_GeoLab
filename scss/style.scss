@@ -11,6 +11,9 @@ body {
         background-color:rgba(1,0,0,0.5);
         width: 100%;
         .mynav {
+            .nav-link{
+                cursor: pointer;
+            }
             max-width: 1170px;
             width: 100%;
             margin: 0 auto;
@@ -512,10 +515,11 @@ body {
                         }
                         .btn-primary{
                             font-family: 'Source Sans Pro', sans-serif;
-                            border: none;
+                            border: hidden;
                             background-color: #212121;
                             transition-property: all;
                             transition-duration: 0.3s;
+                            
                         }
                         .btn-primary:hover{
                             background-color: #03a0a0;
@@ -557,6 +561,7 @@ body {
             height: 1px;
             background-color: #808080;
             margin-bottom: 33px;
+            margin-top: 16px;
         }
         .comm{
             max-width: 1170px;

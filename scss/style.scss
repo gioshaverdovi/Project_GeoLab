@@ -590,15 +590,12 @@ body {
             margin-bottom: 33px;
             margin-top: 16px;
         }
-        .comm{
-            max-width: 1170px;
-            width: 100%;
-            & p{
-                font-family: 'Source Sans Pro', sans-serif;
-                font-size: 14px;
-                color: #AAAAAA;
-            }
+        & p{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 14px;
+            color: #AAAAAA;
         }
+        
     }
 }
 @import 'responsive';

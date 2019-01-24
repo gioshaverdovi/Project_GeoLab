@@ -457,13 +457,10 @@ body {
       background-color: #808080;
       margin-bottom: 33px;
       margin-top: 16px; }
-    body .footer .comm {
-      max-width: 1170px;
-      width: 100%; }
-      body .footer .comm p {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 14px;
-        color: #AAAAAA; }
+    body .footer p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      color: #AAAAAA; }
 
 @media (max-width: 320px) {
   body .bg1 .container .title {

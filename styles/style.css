@@ -221,13 +221,12 @@ body {
     background-color: #EFEFEF;
     padding-top: 68px;
     padding-bottom: 110px; }
-    body .section5 .container {
+    body .section5 .container h1 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 27px;
+      font-weight: bold;
+      color: #212121;
       margin-bottom: 68px; }
-      body .section5 .container h1 {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 27px;
-        font-weight: bold;
-        color: #212121; }
   body .section6 {
     padding-top: 110px;
     padding-bottom: 110px; }

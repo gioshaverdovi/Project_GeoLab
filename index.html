@@ -23,8 +23,8 @@
         </div>
     </div>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light p-0">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light p-0" id="header" style="transition: 0.3s;">
+            <div class="container" id="cont" style="transition: 0.3s;">
                 <a class="navbar-brand" style="font-family: 'Open Sans', sans-serif;" href="#">UNICORN</a>                        
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">            
                     <span class="navbar-toggler-icon"></span>            
@@ -54,7 +54,6 @@
         </div>
     </nav>
 </header> 
-
        <section class="section2" id="about">
            <div class="container d-flex flex-column">
                <img class="align-self-center" src="photo/kombosto.png" alt="logo">
@@ -409,7 +408,21 @@
             </div>
         </footer>
 
-
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("header").style.backgroundColor="rgba(74,117,117,0.9)";
+                document.getElementById("cont").style.marginTop="10px";
+                document.getElementById("cont").style.marginBottom="10px";
+              } else {
+                document.getElementById("header").style.backgroundColor="rgba(1,0,0,0.53)";
+                document.getElementById("cont").style.marginTop="48px";
+                document.getElementById("cont").style.marginBottom="48px";
+              }
+            }
+            </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

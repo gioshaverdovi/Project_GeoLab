@@ -505,6 +505,9 @@ body {
         padding-top: 88px;
         background-color: #212121;
         padding-bottom: 65px;
+        .DN{
+            display: none;
+        }
         .container{
             .row{
                 .Ldiv{
@@ -591,9 +594,6 @@ body {
                             text-shadow: 2px 2px 4px #000;
                         }
                     }
-                }
-                .dropdown{
-                    display: none;
                 }
             }
         }

@@ -3,8 +3,24 @@
         .bg1{
             .container{
                 .title{
+                    margin: 0 auto;
+                    margin-bottom: 30px;
                     font-size: 50px;
                 }
+                .txtdiv {
+                    .treetext {
+                        text-align: center;
+                    }
+                }
+                .tixari1 {
+                    margin: 0 auto;
+                    margin-bottom: 45px;
+                }
+                .morebox {
+                    width: 180px;
+                    margin: 0 auto;
+                }
+
             }
         }
         .section6{
@@ -38,6 +54,7 @@
             .container{
                 .title{
                     margin: 0 auto;
+                    margin-bottom: 30px;
                     font-size: 30px;
                 }
             }

@@ -8,6 +8,7 @@
                     font-size: 50px;
                 }
                 .txtdiv {
+                    padding: 0 15px;
                     .treetext {
                         text-align: center;
                     }
@@ -52,6 +53,9 @@
     body {
         .bg1{
             .container{
+                .txtdiv {
+                    padding: 0 15px;
+                }
                 .title{
                     margin: 0 auto;
                     margin-bottom: 30px;

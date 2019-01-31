@@ -60,6 +60,8 @@ body {
             }
         }
         .morebox:hover {
+            background-color:  rgba(74,117,117,0.7);
+            border-radius: 30px;
             transform: scale(1.05);
         }
     }
@@ -584,6 +586,9 @@ body {
                             text-shadow: 2px 2px 4px #000;
                         }
                     }
+                }
+                .dropdown{
+                    display: none;
                 }
             }
         }

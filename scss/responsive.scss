@@ -47,30 +47,16 @@
     body{
         .footer{
             .container{
-                .social {
-                    display: none;
+                .row{
+                    .social {
+                        display: none;
+                    }
+                    .dropdown{
+                        display: block;
+                        padding-top: 25px;
+                    }
                 }
             }
         }
-        // .section3{
-        //     .container{
-        //         .row{
-        //             & div {
-        //                 & img {
-        //                     margin: 0 auto;
-        //                 }
-        //                 & h3 {
-        //                     text-align: center;
-        //                 }
-        //                 & div {
-        //                     margin: 0 auto;
-        //                     & p {
-        //                         text-align: center;
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
     }
 }

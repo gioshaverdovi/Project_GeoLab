@@ -1,25 +1,4 @@
-@media (max-width: 991px) {
-    body{
-        & header{
-            & nav {
-                .container {
-                    .collapse {
-                        .navbar-nav{
-                            & li {
-                                transition-property: all;
-                                transition-duration: 0.3s;
-                            }
-                            & li:hover {
-                                background-color: rgba(74,117,117,1);
-                                padding-left: 10px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+
 @media (max-width: 576px){
     body {
         .bg1{

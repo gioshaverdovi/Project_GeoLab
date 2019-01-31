@@ -64,14 +64,14 @@
 @media (max-width: 768px){
     body{
         .footer{
-            .DN{
-                display: block;
-                padding-bottom: 25px;
-            }
             .container{
                 .row{
                     .social {
                         display: none;
+                    }
+                    .dropdown{
+                        display: block;
+                        //padding-bottom: 25px;
                     }
                 }
             }

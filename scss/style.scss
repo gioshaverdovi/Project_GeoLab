@@ -574,15 +574,20 @@ body {
                             padding: 0px;
                             margin-bottom: opx;
                             background-color: #212121;
-                            color: #999999;
                             border: none;
                             margin-bottom: 12px;
                             transition-property: all;
                             transition-duration: 0.3s;
+                            & a {
+                                color: #999999;
+                                text-decoration: none;
+                            }
                         }
                         .list-group-item:hover {
                             transform: scale(1.05);
-                            color: red;
+                            & a{
+                                color: red;
+                            }
                             text-shadow: 2px 2px 4px #000;
                         }
                     }
